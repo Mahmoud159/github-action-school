@@ -41,7 +41,7 @@ describe('Payment Service', () => {
     const mockPaymentDetails: PaymentDetails = {
       amount: 50,
       currency: 'TND',
-      method: PaymentMethod.CreditCard,
+      method: PaymentMethod.PayPal,
       cardNumber: '1234567890123456',
     };
 
